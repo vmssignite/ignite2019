@@ -2,7 +2,7 @@
 apt_update: false
 apt_upgrade: false
 runcmd:
- - /usr/bin/wget -O /opt/get-app.sh https://raw.githubusercontent.com/catengineering/longlifeapp/master/get-app.sh
+ - /usr/bin/wget -O /opt/get-app.sh https://raw.githubusercontent.com/vmssignite/ignite2019/master/get-app.sh
  - chmod +x /opt/get-app.sh
  - echo '#! /bin/sh -e' >/etc/rc.local
  - echo '/opt/get-app.sh >>/etc/rc.local'
