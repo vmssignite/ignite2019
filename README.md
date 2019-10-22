@@ -2,6 +2,8 @@
 
 This repo contains basic support files to support the demostrations at Ignite during the Week of 4th November 2019.
 
+This branch contains an application that will not crash (at least on purpose!)
+
 This repo contains 3 files
 
 1. server     --> this is a sample web application that listens on port 8080
